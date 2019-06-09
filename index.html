@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- viewport metatag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- own css file -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- jquery  -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap javascript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Javascript link -->
+    <script type="text/javascript" src="assets/Ajax/gifTastic.js"></script>
+    <title>Food and Drink Search</title>
+</head>
+
+<body>
+    <!-- Whole container starts here -->
+    <div class="container-fluid">
+        <nav class="container-fluid" id="headerimage"></nav>
+        <div class="d-flex flex-column bd-highlight displayImg">
+            <div id="buttondisplay" class="p-2 bd-highlight"></div>
+            <div  class="d-flex flex-row bd-highlight">
+                <div id="imagedp_gif" class="p-2 bd-highlight d-inline">
+                        <div>
+                            <section>
+                                <p>test test </p>
+                                <p>test2</p>
+                                <p>test3</p>
+                                <p>test4</p>
+                            
+                            </section>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="d-flex flex-column bd-highlight rightdiv">
+            <div class="p-2 bd-highlight">
+                <div>
+
+                    <form id="addfood-form">
+
+                        <label>Add a food\drink :</label>
+                        <input type="text" id="food-input"><br>
+                        <input id="add-food" style="margin:5px;" class="button" type="submit" value="Add a Food\Drink">
+                    </form>
+                </div>
+            </div>
+
+            <div class="p-2 bd-highlight">
+                <div>
+                    <form id="gifdisplay">
+                        <label>How many gif?</label><br>
+                        <input type="radio" name="5gif" value="5">5 Gif
+                        <input type="radio" name="10gif" value="10">10 Gif <br>
+                        <input type="submit" class="button" id="add-gif" value="Submit">
+                    </form>
+                </div>
+            </div>
+            <div class="p-2 bd-highlight">
+                <div>
+                    <form id="metadata">
+                        <label>Metadata </label><br>
+                        <input type="checkbox" name="title" value="Title">Title
+                        <input type="checkbox" name="tags" value="Tags">Tags
+                        <input type="checkbox" name="tags" value="Tags">Tags <br>
+                        <input type="submit" class="button" id="display-meta" value="Submit">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- main ends here -->
+
+
+</body>
+
+</html>

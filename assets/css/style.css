@@ -1,0 +1,89 @@
+body{
+   height:100%;
+   width:100%;
+}
+button,form,input {
+      margin: 10px;
+    }
+/* p{
+   display: table-cell;
+} */
+/* #headerimage{
+    background:url("../images/header.png");
+    @media (min-width: 600px) and (max-width: 800px)
+    height:150px;
+    border:10px solid brown;
+   
+} */
+/* media queries */
+@media (min-width: 600px) and (max-width: 800px) {
+   #headerimages{
+   background:url("../images/header.png");
+   height:150px;
+   border:10px solid brown;
+   }
+
+}
+.displayImg{
+    background: darkolivegreen;
+    border:2px solid darkolivegreen;
+    width:74%;
+    height:1024px;
+    float:left;
+    display:flex;
+    /* margin-left:-15px; */
+    /* need to ask */
+}
+.rightdiv{
+    
+    float:right;
+    width:26%;
+    height:1024px;
+    display:flex;
+    border:20px, solid darkred;
+    background: rgb(95, 146, 95);
+   font-size: 20px;
+   font-family:'Times New Roman', Times, serif;
+}
+#buttondisplay{
+   padding:7px;
+}
+legend {
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: 5px;
+  }
+/* custom button done in css-tricks */
+
+.button {
+    border-top: 1px solid #5dd119;
+    background: #cc76ab;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8aa2b3), to(#cc76ab));
+    background: -webkit-linear-gradient(top, #8aa2b3, #cc76ab);
+    background: -moz-linear-gradient(top, #8aa2b3, #cc76ab);
+    background: -ms-linear-gradient(top, #8aa2b3, #cc76ab);
+    background: -o-linear-gradient(top, #8aa2b3, #cc76ab);
+    padding: 11px 22px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: #080708;
+    font-size: 18px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    vertical-align: middle;
+    }
+ .button:hover {
+    border-top-color: #c47cb3;
+    background: #c47cb3;
+    color: #070d0c;
+    }
+ .button:active {
+    border-top-color: #278dd1;
+    background: #278dd1;
+    }
