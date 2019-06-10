@@ -24,60 +24,56 @@
 <body>
     <!-- Whole container starts here -->
     <div class="container-fluid">
-        <nav class="container-fluid" id="headerimage"></nav>
+        <!-- nav div -->
+        <nav class="container-fluid" id="headerimage">
+            <img src="assets/images/PicMonkey Image.jpg" class="img-fluid" alt="Responsive image">
+        </nav>
+        <!-- Display image div -->
         <div class="d-flex flex-column bd-highlight displayImg">
-            <div id="buttondisplay" class="p-2 bd-highlight"></div>
-            <div  class="d-flex flex-row bd-highlight">
-                <div id="imagedp_gif" class="p-2 bd-highlight d-inline">
-                        <div>
-                            <section>
-                                <p>test test </p>
-                                <p>test2</p>
-                                <p>test3</p>
-                                <p>test4</p>
-                            
-                            </section>
-                        </div>
-                </div>
-
+            <div id="buttondisplay-header" class="p-2 bd-highlight flex-row">
+                <div class="p-2 bd-highlight" id="buttondisplay"></div>
             </div>
-        </div>
-        <div class="d-flex flex-column bd-highlight rightdiv">
-            <div class="p-2 bd-highlight">
-                <div>
-
-                    <form id="addfood-form">
-
-                        <label>Add a food\drink :</label>
-                        <input type="text" id="food-input"><br>
-                        <input id="add-food" style="margin:5px;" class="button" type="submit" value="Add a Food\Drink">
-                    </form>
-                </div>
-            </div>
-
-            <div class="p-2 bd-highlight">
-                <div>
-                    <form id="gifdisplay">
-                        <label>How many gif?</label><br>
-                        <input type="radio" name="5gif" value="5">5 Gif
-                        <input type="radio" name="10gif" value="10">10 Gif <br>
-                        <input type="submit" class="button" id="add-gif" value="Submit">
-                    </form>
-                </div>
-            </div>
-            <div class="p-2 bd-highlight">
-                <div>
-                    <form id="metadata">
-                        <label>Metadata </label><br>
-                        <input type="checkbox" name="title" value="Title">Title
-                        <input type="checkbox" name="tags" value="Tags">Tags
-                        <input type="checkbox" name="tags" value="Tags">Tags <br>
-                        <input type="submit" class="button" id="display-meta" value="Submit">
-                    </form>
-                </div>
+            <div class="d-flex flex-row bd-highlight mb-3">
+                <div class="container"> </div>
             </div>
 
         </div>
+        <!-- Right div  -->
+    <div class="d-flex flex-column bd-highlight rightdiv">
+        <div class="p-2 bd-highlight">
+            <div class="flex-row">
+                <form id="addfood-form">
+
+                    <label>Add a food\drink :</label>
+                    <input type="text" id="food-input"><br>
+                    <input id="add-food" style="padding:5px;width:200" class="button" type="submit" value="Add a Food\Drink">
+                </form>
+            </div>
+        </div>
+
+        <div class="p-2 bd-highlight">
+            <div class="flex-row">
+                <form id="gifdisplay ">
+                    <label>How many gif?</label><br>
+                    <input type="radio" name="gif" value="5">5 Gif
+                    <input type="radio" name="gif" value="10">10 Gif <br>
+                    <input type="submit" class="button" id="add-gif" value="Submit">
+                </form>
+            </div>
+        </div>
+        <div class="p-2 bd-highlight">
+            <div class="flex-row">
+                <form id="metadata">
+                    <label>Metadata </label><br>
+                    <input type="checkbox" name="meta" value="Title">Title
+                    <input type="checkbox" name="meta" value="Tags">Tags
+                    <input type="checkbox" name="meta" value="Tags">Tags <br>
+                    <input type="submit" class="button" id="display-meta" value="Submit">
+                </form>
+            </div>
+        </div>
+
+    </div>
 
     </div>
     <!-- main ends here -->
