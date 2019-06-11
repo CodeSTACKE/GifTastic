@@ -55,8 +55,8 @@
             <div class="flex-row">
                 <form id="gifdisplay ">
                     <label>How many gif?</label><br>
-                    <input type="radio" name="gif" value="5">5 Gif
-                    <input type="radio" name="gif" value="10">10 Gif <br>
+                    <input type="radio" name="gif" value="5" id="5">5 Gif
+                    <input type="radio" name="gif" value="10" id="10">10 Gif <br>
                     <input type="submit" class="button" id="add-gif" value="Submit">
                 </form>
             </div>
@@ -65,11 +65,14 @@
             <div class="flex-row">
                 <form id="metadata">
                     <label>Metadata </label><br>
-                    <input type="checkbox" name="meta" value="Title">Title
-                    <input type="checkbox" name="meta" value="Tags">Tags
-                    <input type="checkbox" name="meta" value="Tags">Tags <br>
-                    <input type="submit" class="button" id="display-meta" value="Submit">
                 </form>
+                    <div id="checkboxlist">
+                        <input type="checkbox" name="meta" value="Title" class="chk">Title
+                        <input type="checkbox" name="meta" value="Type" class="chk">Type<br>
+                    <div>
+                       <div> 
+                    <input type="submit" class="button" id="display-meta" value="Submit">
+                </div>
             </div>
         </div>
 
