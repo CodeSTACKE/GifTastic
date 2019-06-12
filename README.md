@@ -9,11 +9,11 @@ I choosed the theme Food and Drink
 -----------------------------------------
 Enter a term into the search box. As you enter terms into the search box, buttons will appear above with the term entered and gifs related to that term will appear below. If you are not sure of a term to search then feel free to select one of the already populated buttons on the page.
 1.I also created a option for dispalying  5gifs and 10gif.
-https://jyotigithub1.github.io/GifTastic/.
+
 
 
 Go ahead! Click on the following link to preview the completed assignment.
-
+https://jyotigithub1.github.io/GifTastic/.
 
 Built With
 -----------------------------------
